@@ -3,26 +3,35 @@ extern void read_event(int * event);
 
 /* Summary:
  *
+ * cnt = cnt0 and max = max0 and event0 = 0 and reset0 = 0
+ * and event = 0 and reset = 0
+ *
+ * cnt = cnt0 and event = event0 and max = max0 and reset0 = 0
+ * and reset = 0 and event >= 1 and cnt >= max
+ *
+ * cnt = cnt0 + 1 and event = event0 and max = max0 and reset0 = 0
+ * and reset = 0 and cnt <= max and event >= 1
+ *
+ * cnt = cnt0 and event = event0 and max = max0 and reset0 = 0
+ * and reset = 0 and event <= -1 and cnt >= max
+ *
+ * cnt = cnt0 + 1 and event = event0 and max = max0 and reset0 = 0
+ * and reset = 0 and cnt <= max and event <= -1
+ *
  * reset = reset0 and event = event0 and max = max0 and cnt = 0
  * and reset >= 1
  *
- * cnt = cnt0 and reset = reset0 and event = event0 and max = max0
- * and reset <= 0 and event0 >= 1 and cnt >= max0
- *
- * cnt = cnt0+1 and reset = reset0 and event = event0 and max = max0
- * and cnt <= max0 and reset <= 0 andd event0 >= 1
- *
- * cnt = cnt0 and reset = reset0 and event = event0 and max = max0
- * adn reset <= 0 and event0 <= 0
+ * reset = reset0 and event = event0 and max = max0 and cnt = 0
+ * and reset <= -1
  *
  */
 void counter_step(int * cnt, int reset, int event, int max)
 {
-    if(reset >= 1)
+    if(reset)
     {
         *cnt = 0;
     }
-    else if(event >= 1 && *cnt < max)
+    else if(event && *cnt < max)
     {
         *cnt = *cnt + 1;
     }
