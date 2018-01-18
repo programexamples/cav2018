@@ -2,6 +2,9 @@
 /* Summary:
  *
  * %ret = a0 and %ret = a and %ret <= 0
+ *
+ * or
+ *
  * %ret = 2a0 and %ret = 2a and %ret >= 2
  *
  */

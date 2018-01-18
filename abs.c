@@ -2,6 +2,9 @@
 /* Summary:
  *
  * %ret = x0 and %ret = x and %ret >= 0
+ * 
+ * or
+ *
  * %ret = -x0 and %ret = -x and %ret >= 1
  *
  */

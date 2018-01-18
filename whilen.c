@@ -1,7 +1,13 @@
 /* Summary:
  *
  * %ret = a and %ret = a0 and n = n0 and n >= 1 and %ret >= n
+ *
+ * or
+ *
  * %ret = n0 and %ret = n and a = a0 and %ret >= a0+1 and %ret >= 1
+ *
+ * or
+ *
  * n = n0 and a = a0 and %ret = -1 and n <= 0
  *
  */

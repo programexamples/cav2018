@@ -2,9 +2,21 @@
 /* Summary:
  *
  * r = a0 and r = a and b = b0 and c = c0 and n = 0 and n0 = 0 and c0 <= 0 
+ *
+ * or
+ *
  * r = b and r = b0 and a = a0 and c = c0 and n = 0 and n0 = 0 and c0 >= 1
+ *
+ * or
+ *
  * r = a0 and r = a and b = b0 and c = c0 and n = n0 and c0 <= n0 and n0 >= 1
+ *
+ * or
+ *
  * r = b and r = b0 and a = a0 and c = c0 and n = n0 and n0 >= 1 and c0 > n0
+ *
+ * or
+ *
  * r = r0 and a = a0 and b = b0 and c = c0 and n = n0 and n0 <= -1
  *
  */

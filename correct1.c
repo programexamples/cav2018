@@ -4,11 +4,17 @@
  * x = x0 and obj = obj0 and tol = tol0 and step = step0
  * and x <= obj+tol0
  *
+ * or
+ *
  * obj = obj0 and tol = tol0 and step = step0 and x <= obj+tol0
  * and x0 >= obj+tol0+x0+1 and x+step0 >= obj+tol0+1
  *
+ * or
+ *
  * x = x0 and obj = obj0 and tol = tol0 and step = step0
  * and step0 <= -1 and tol0 >= 0
+ *
+ * or
  *
  * x = x0 and obj = obj0 and tol = tol0 and step = step0 and tol0 <= -1
  *
