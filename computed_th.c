@@ -2,7 +2,7 @@ extern int undet();
 
 /* Summary:
  *
- * [ a0 >= 0 and n = 0 ]
+ * [ a0 >= 0 and n0 = 0 ]
  * r = a and r = a0 and n0 = 0 and n = 0 and r >= 0
  *
  * or
