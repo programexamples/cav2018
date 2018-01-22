@@ -1,12 +1,12 @@
 
 /* Summary:
  *
- * [ x >= 0 ]
+ * [ x0 >= 0 ]
  * %ret = x0 and %ret = x and %ret >= 0
  * 
  * or
  * 
- * [ x <= -1 ]
+ * [ x0 <= -1 ]
  * %ret = -x0 and %ret = -x and %ret >= 1
  *
  */

@@ -3,43 +3,43 @@ extern void read_event(int * event);
 
 /* Summary:
  *
- * [ reset = 0 and event = 0 ]
+ * [ reset0 = 0 and event0 = 0 ]
  * cnt = cnt0 and max = max0 and event0 = 0 and reset0 = 0
  * and event = 0 and reset = 0
  *
  * or
  *
- * [ reset = 0 and event >= 1 and cnt0 >= max ]
+ * [ reset0 = 0 and event0 >= 1 and cnt0 >= max0 ]
  * cnt = cnt0 and event = event0 and max = max0 and reset0 = 0
  * and reset = 0 and event >= 1 and cnt >= max
  *
  * or
  *
- * [ reset = 0 and cnt0 < max and event >= 1 ]
+ * [ reset0 = 0 and cnt0 < max0 and event0 >= 1 ]
  * cnt = cnt0 + 1 and event = event0 and max = max0 and reset0 = 0
  * and reset = 0 and cnt <= max and event >= 1
  *
  * or
  *
- * [ reset = 0 and event <= -1 and cnt0 >= max ]
+ * [ reset0 = 0 and event0 <= -1 and cnt0 >= max0 ]
  * cnt = cnt0 and event = event0 and max = max0 and reset0 = 0
  * and reset = 0 and event <= -1 and cnt >= max
  *
  * or
  *
- * [ cnt0 < max and reset = 0 and event <= -1 ]
+ * [ cnt0 < max0 and reset0 = 0 and event0 <= -1 ]
  * cnt = cnt0 + 1 and event = event0 and max = max0 and reset0 = 0
  * and reset = 0 and cnt <= max and event <= -1
  *
  * or
  *
- * [ reset >= 1 ]
+ * [ reset0 >= 1 ]
  * reset = reset0 and event = event0 and max = max0 and cnt = 0
  * and reset >= 1
  *
  * or
  *
- * [ reset <= -1 ]
+ * [ reset0 <= -1 ]
  * reset = reset0 and event = event0 and max = max0 and cnt = 0
  * and reset <= -1
  *

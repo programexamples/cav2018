@@ -1,25 +1,25 @@
 
 /* Summary
  *
- * [ x0 <= obj + tol ]
+ * [ x0 <= obj0 + tol0 ]
  * x = x0 and obj = obj0 and tol = tol0 and step = step0
  * and x <= obj+tol0
  *
  * or
  *
- * [ x0 > obj + tol and step >= 1 ]
+ * [ x0 > obj0 + tol0 and step0 >= 1 ]
  * obj = obj0 and tol = tol0 and step = step0 and x <= obj+tol0
  * and x0 >= obj+tol0+1 and x+step0 >= obj+tol0+1
  *
  * or
  * 
- * [ step <= -1 and tol >= 0 ] 
+ * [ step0 <= -1 and tol0 >= 0 ] 
  * x = x0 and obj = obj0 and tol = tol0 and step = step0
  * and step0 <= -1 and tol0 >= 0
  *
  * or
  *
- * [ tol <= -1 ]
+ * [ tol0 <= -1 ]
  * x = x0 and obj = obj0 and tol = tol0 and step = step0 and tol0 <= -1
  *
  */

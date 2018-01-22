@@ -1,27 +1,27 @@
 
 /* Summary:
  *
- * [ n = 0 and c <= 0 ]
+ * [ n0 = 0 and c0 <= 0 ]
  * r = a0 and r = a and b = b0 and c = c0 and n = 0 and n0 = 0 and c0 <= 0 
  *
  * or
  *
- * [ n = 0 and c >= 1 ]
+ * [ n0 = 0 and c0 >= 1 ]
  * r = b and r = b0 and a = a0 and c = c0 and n = 0 and n0 = 0 and c0 >= 1
  *
  * or
  *
- * [ c <= n and n >= 1 ]
+ * [ c0 <= n0 and n0 >= 1 ]
  * r = a0 and r = a and b = b0 and c = c0 and n = n0 and c0 <= n0 and n0 >= 1
  *
  * or
  *
- * [ n >= 1 and c > n ]
+ * [ n0 >= 1 and c0 > n0 ]
  * r = b and r = b0 and a = a0 and c = c0 and n = n0 and n0 >= 1 and c0 > n0
  *
  * or
  *
- * [ n <= -1 ]
+ * [ n0 <= -1 ]
  * r = r0 and a = a0 and b = b0 and c = c0 and n = n0 and n0 <= -1
  *
  */

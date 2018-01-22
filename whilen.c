@@ -1,16 +1,16 @@
 /* Summary:
  *
- * [ a >= n and n >= 1 ]
+ * [ a0 >= n0 and n0 >= 1 ]
  * %ret = a and %ret = a0 and n = n0 and n >= 1 and %ret >= n
  *
  * or
  *
- * [ n >= a + 1 and n >= 1 ]
+ * [ n0 >= a0 + 1 and n0 >= 1 ]
  * %ret = n0 and %ret = n and a = a0 and %ret >= a0+1 and %ret >= 1
  *
  * or
  *
- * [ n <= 0 ]
+ * [ n0 <= 0 ]
  * n = n0 and a = a0 and %ret = -1 and n <= 0
  *
  */
