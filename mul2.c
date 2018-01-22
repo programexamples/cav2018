@@ -1,10 +1,12 @@
 
 /* Summary:
  *
+ * [ a <= 0 ]
  * %ret = a0 and %ret = a and %ret <= 0
  *
  * or
  *
+ * [ a >= 1 ]
  * %ret = 2a0 and %ret = 2a and %ret >= 2
  *
  */

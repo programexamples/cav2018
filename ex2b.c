@@ -1,10 +1,12 @@
 
 /* Summary:
  *
+ *  [ b <= 0 ]
  *  %ret = a0 and %ret = a and b = b0 and b0 <= 0
  *
  *  or
  *
+ *  [ b >= 1 ]
  *  %ret = a+4b and %ret = a+4b0 and a = a0 and %ret >= a+4
  *
  */
